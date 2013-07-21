@@ -3,7 +3,7 @@ var app = express();
 app.use(express.logger());
 
 app.get('/', function(request, response) {
-  fs.readFile('index.html', function (err, data) {
+  express.readFile('index.html', function (err, data) {
   if (err) throw err;
   console.log(data);
   response.send(data.toString('utf-8'));
