@@ -1,9 +1,8 @@
-
-<!DOCTYPE html>
+A<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>My First Bitstarter</title>
+    <title>uFIR</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
@@ -141,65 +140,57 @@
         <div class="span12">
           <!-- Special typography from Bootstrap for lead paragraph. -->
           <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-          <p class="lead">Use people power to gather intelligence about criminal or suspicious activity.</p>
+          <p class="lead">Use people power to gather intelligence about criminal or suspicious activity</p>
         </div>
       </div>
       <div class="row-fluid pitch">
         <div class="span5 offset1 video">
-          <img class="img-polaroid" alt="Placeholder" src="https://dl.dropboxusercontent.com/u/4897442/image1.png">
+          <img class="img-polaroid" src="https://dl.dropboxusercontent.com/u/4897442/image1.png">
         </div>
 
         <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
         <div class="span5 actions">
-          <div class="row-fluid">
           <div class="span8 offset2">
-            <div class="row-fluid statistics">
+            <div class="statistics">
               <div class="span4">
                 <!-- linediv-l and linediv-r give dividing lines that look
                 different in horizontal and vertical layouts, illustrating
                 media queries. -->
                 <div class="linediv-l">
-                <h3>1000</h3> <p>backers</p>
+                <h3>8450</h3> <p>backers</p>
                 </div>
               </div>
               <div class="span4">
                 <div class="linediv-c">
-                  <h3>$6000</h3> <p>of $10,000</p>
+                  <h3>$6500</h3> <p>of $10,000</p>
                 </div>
               </div>
               <div class="span4">
                 <div class="linediv-r">
-                <h3>10</h3> <p>days left</p>
+                <h3>12</h3> <p>days left</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row-fluid">
           <div class="span10 offset1">
             <!-- Bootstrap progress bar -->
             <!-- http://twitter.github.io/bootstrap/components.html#progress -->
             <div class="thermometer progress active">
-              <div class="bar bar-success" style="width: 60%;"></div>
-              <div class="bar bar-warning" style="width: 40%;"></div>
+              <div class="bar bar-success" style="width: 65%;"></div>
+              <div class="bar bar-warning" style="width: 35%;"></div>
             </div>
           </div>
-          </div>
-          <div class="row-fluid">
           <div class="span6 offset3 order">
             <!-- Standard Bootstrap button. -->
             <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
             <button class="btn btn-success btn-large">Contribute Now</button>
           </div>
-          </div>
-          <div class="row-fluid">
           <div class="span8 offset2 social">
             <!-- Social buttons are not included in default Bootstrap. -->
             <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
             <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
             <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
           </div>
-          </div>
-        </div>
         </div>
       </div>
 
@@ -209,20 +200,19 @@
       <!-- http://placehold.it -->
       <div class="row-fluid section1">
         <div class="span5 offset1 asset">
-          <img class="img-polaroid"  alt="Placeholder" src="https://dl.dropboxusercontent.com/u/4897442/image2.png">
+          <img class="img-polaroid" src="https://dl.dropboxusercontent.com/u/4897442/image2.png">
         </div>
         <div class="span5 copy">
           <p>
             Across Pakistan, from cities to villages and from slums to posh neighbourhoods, 
-            people steal electricity every day, usually by means of a metal hook known as a 
-            <b>kunda</b> connecting the house directly to power lines in the street, bypassing the 
-            meter. Another common way to steal power is by disabling the meter with a length
-            of electrical wire, but a safer option is simply to bribe company officials. 
-            People using electricity without paying for it is a major cause of power crisis 
-            that is crippiling Pakistan. This just one example where people power 
-            can be used to gather information about such activities and help authorities in
-            a crackdown of such practices.
-          </p>
+	    people steal electricity every day, usually by means of a metal hook known as a 
+	    <b>kunda</b> connecting the house directly to power lines in the street, bypassing the 
+	    meter. Another common way to steal power is by disabling the meter with a length
+	    of electrical wire, but a safer option is simply to bribe company officials. 
+	    People using electricity without paying for it is a major cause of power crisis 
+	    that is crippiling Pakistan. This just one example where people power 
+	    can be used to gather information about such activities and help authorities in
+	    a crackdown of such practices. 	  <p>
         </div>
       </div>
 
@@ -230,13 +220,12 @@
         <div class="span5 offset1 copy copy-right">
           <p>
             Other possible usage includes gathering intelligence about criminals and potential 
-            terrorist. The data gathered will be anonymized. People who file the First Information Report
-            (F.I.R.) will have access only to their own FIRs. uFIR will aggregate the data 
-            and create visulaizations including maps to publicly share the data.
-          </p>
+	    terrorist. The data gathered will be anonymized. People who file the First Information Report
+	    (F.I.R.) will have access only to their own FIRs. uFIR will aggregate the data 
+	    and create visulaizations including maps to publicly share the data.</p>
         </div>
         <div class="span5 asset">
-          <img class="img-polaroid"  alt="Placeholder" src="https://dl.dropboxusercontent.com/u/4897442/image3.png">
+          <img class="img-polaroid" src="https://dl.dropboxusercontent.com/u/4897442/image3.png">
         </div>
       </div>
 
@@ -257,7 +246,7 @@
                 <div id="collapseOne" class="accordion-body collapse">
                   <div class="accordion-inner">
                     First Information Report (FIR) is a written document prepared by police organizations in Pakistan 
-                    when they receive information about the commission of a cognizable offence.
+		    when they receive information about the commission of a cognizable offence.
                   </div>
                 </div>
               </div>
